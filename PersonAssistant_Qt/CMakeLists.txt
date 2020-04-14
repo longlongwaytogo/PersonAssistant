@@ -1,0 +1,9 @@
+#cmake
+PROJECT(PersonAssistant)
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+
+aux_source_directory(. src)
+
+FIND_PACKAGE(qt REQUIRED)
+
+ADD_DEFINITIONS (${QT_DEFINITIONS})
